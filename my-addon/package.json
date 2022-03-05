@@ -38,6 +38,7 @@
     "prepublishOnly": "yarn build"
   },
   "dependencies": {
+    "ember-window-mock": "^0.8.1",
     "@embroider/addon-shim": "^1.0.0",
     "ts-lib": ">= 0.0.5"
   },
@@ -63,7 +64,6 @@
     "concurrently": "^7.0.0",
     "ember-cli-htmlbars": "^6.0.0",
     "ember-template-lint": "3.16.0",
-    "ember-window-mock": "^0.8.1",
     "eslint": "^7.0.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-decorator-position": "^4.0.0",
